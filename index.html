@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My first web site</title>
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<!--header-->
+	<header>
+		<h1 style="text-align: center;">HTML</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Map</a></li>
+				<li><a href="#">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--/header-->
+
+	<!--main content-->
+	<main>
+		<section>
+			<h2>Section1</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorem aliquam est voluptate hic consequatur illo
+				perspiciatis omnis quis numquam? Beatae illum totam adipisci a quas distinctio minima fugit quos maiores atque
+				excepturi eligendi ab nemo officia tempore voluptatem ipsa obcaecati, ducimus earum nostrum est iste eius animi?
+				Ex, possimus?</p>
+			<p>Lorem ipsum dolor sit amet. <a href="https://www.google.com" target="_blank" class="link">Go to GOOGLE</a></p>
+
+			<img src="img/js.jfif" alt="js">
+
+			<h3>This is unnumbered list</h3>
+			<ul>
+				<li>Coffe</li>
+				<li>Water</li>
+				<li>Milk</li>
+				<li>Tea</li>
+			</ul>
+
+			<h3>This is numbered list</h3>
+			<ol>
+				<li>Coffe</li>
+				<li>Water</li>
+				<li>Milk</li>
+				<li>Tea</li>
+			</ol>
+		</section>
+
+
+		<section>
+			<h2>Forms</h2>
+
+			<form action="#" method="GET">
+				<fieldset>
+					<legend>Your personal information</legend>
+					<div>
+						<label>Login:<input type="text" name="Login" value="" placeholder="Your login"></label>
+					</div>
+					<div>
+						<label>Password:<input type="password" name="pass" value="" placeholder="Yoyr pass"></label>
+					</div>
+					<div>
+						<label>Phone:<input type="tel" name="tel" value="" placeholder="Yoyr tel"></label>
+					</div>
+					<div>
+						<label>Email:<input type="email" name="email" value="" placeholder="Your email"></label>
+					</div>
+					<div>
+						Gender:
+						<label>Male:<input type="radio" name="gender" value="male"></label>
+						<label>Female:<input type="radio" checked name="gender" value="female"></label></p>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>Additional information</legend>
+
+					<div>
+						Choose your favorite auto:
+						<p>
+							<label>Mazda<input type="checkbox" name="mazda" value="mazda"></label>
+							<label>Opel<input type="checkbox" name="opel" value="opel"></label>
+							<label>BMW<input type="checkbox" name="bmw" value="bmw"></label>
+							<label>Mersedes<input type="checkbox" name="mersedes" value="mersedes"></label>
+							<label>Volvo<input type="checkbox" name="volvo" value="volvo"></label>
+						</p>
+					</div>
+					<div>
+						Choose your favorite color:
+						<select name="colors" id="colors">
+							<option value="red">Red</option>
+							<option selected value="blue">Blue</option>
+							<option value="yellow">Yellow</option>
+							<option value="green">Green</option>
+						</select>
+					</div>
+					<div>
+						<p>Your message:</p>
+						<textarea name="msf" id="msg" cols="30" rows="10" placeholder="Your comments"></textarea>
+					</div>
+
+				</fieldset>
+				<div>
+					<input type="submit" value="submit">
+					<input type="reset" value="reset">
+				</div>
+			</form>
+		</section>
+	</main>
+	<!--/main content-->
+</body>
+
+</html>

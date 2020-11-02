@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 400 16px/1.5 "Verdana", sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.link {
+	text-decoration: none;
+	color: #ff0000;
+}
+
+form div {
+	margin: 10px 0px;
+}
+form input {
+	padding: 0 5px;
+}
+
+/* navigation */
+nav ul {
+	text-align: center;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+nav ul li a {
+	color: brown;
+	font: 600 20px Arial, sans-serif;
+	transition: all 4s ease 2s;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+/*/navigation*/
+
+/* list */
+ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: lower-latin;
+}
